@@ -4,17 +4,17 @@ import java.util.Scanner;
 
 public class Suma {
     public static void main(String[] args) {
-        int numero1 = 0;
-        int numero2 = 0;
-        int suma = 0;
+        int num1 = 0;
+        int num2 = 0;
+        int sum = 0;
 
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Ingrese el primer número: ");
-        numero1 = scanner.nextInt();
+        num1 = scanner.nextInt();
         System.out.print("Ingrese el segundo número: ");
-        numero2 = scanner.nextInt();
-        suma = numero1 + numero2;
-        System.out.println("El suma de: " + numero1 + " + " +  numero2 + " es: " + suma);
+        num2 = scanner.nextInt();
+        sum = num1 + num2;
+        System.out.println("El suma de: " + num1 + " + " +  num2 + " es: " + sum);
     }
 }
