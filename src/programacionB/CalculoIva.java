@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class CalculoIva {
     public static void main(String[] args) {
-        double precio, iva, importe, total = 0, cantidad = 0;
+        double precio = 0, iva, importe, total = 0, cantidad = 0;
         int productos;
         int i = 0;
-        String nombreProducto;
+        String nombreProducto = "";
 
         Scanner scanner = new Scanner(System.in);
 
@@ -30,8 +30,7 @@ public class CalculoIva {
                 i++;
 
             }
-
-            System.out.println(total);
+            System.out.println("El total a pagar es de: " + total);
 
         }catch (Exception error){
             System.out.println("Debe ingresar un dato válido ");

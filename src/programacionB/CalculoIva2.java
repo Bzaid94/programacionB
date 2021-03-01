@@ -30,7 +30,7 @@ public class CalculoIva2 {
 
             }while (choise.equals("S") | choise.equals("s"));
 
-            System.out.println(total);
+            System.out.println("El total a pagar es de: " + total);
 
         }catch (Exception error){
             System.out.println("Ingresó un dato incorrecto.");
