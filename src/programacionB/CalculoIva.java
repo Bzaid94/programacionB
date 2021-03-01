@@ -34,7 +34,7 @@ public class CalculoIva {
             System.out.println(total);
 
         }catch (Exception error){
-            System.out.println("Debe ingresar un dato válido " + error);
+            System.out.println("Debe ingresar un dato válido ");
         }
     }
 
